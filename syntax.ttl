@@ -1,0 +1,52 @@
+** Variables **
+
+let x Int = int(10) ** Int / Number **
+let x String = string('Hello') ** String **
+let x Array = array(["Hello", "Whats", "Up", "Boys"]) ** array **
+let x BooleanTrue = boolean(true) ** Boolean **
+let x BooleanFalse = boolean(false) ** Boolean **
+
+** Print statements **
+
+consolePrint(x) ** print variable, can be int, string, array, boolean, etc **
+consolePrint(int(12)) ** print int **
+consolePrint('Hello') ** prints automatically strings**
+consolePrint(["Hello", "Whats", "Up", "Boys"]) ** print array **
+consolePrint(boolean(True)) ** Print boolean **
+consolePrint(boolean(False)) ** Print boolean **
+consolePrint(x + int(12)) ** plus variable and int **
+consolePrint(x + y) ** plus two variables **
+consolePrint(int(12) + int(13)) ** Plus two ints **
+
+** If - Else statements
+
+if x > 5 
+    consolePrint('X is more than 5')
+else
+    consolePrint('X is less than 5')
+
+** Function Declaration and Call
+
+function hello(name)
+    consolePrint("Hello, " . name)
+function add(a, b)
+    return a + b
+
+** Loops **
+
+for let i = 0 to 10
+    consolePrint(i)
+
+let i = int(0)
+while i < 5
+    consolePrint(i)
+    i = i + 1
+
+** Error Handling **
+
+try
+    let result = x / 0
+catch
+    consolePrint("An error occured")
+
+hello("world")

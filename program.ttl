@@ -1,0 +1,15 @@
+let x Int = int(10)
+consolePrint(x)
+let y String = string("Hello")
+consolePrint(y)
+let z BooleanTrue = boolean(true)
+consolePrint(z)
+
+function add(a, b)
+    return a + b
+consolePrint(add(int(5), int(3)))
+
+if x > 5 
+    consolePrint('X is more than 5')
+else
+    consolePrint('X is less than 5')

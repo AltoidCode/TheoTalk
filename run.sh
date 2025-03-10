@@ -1,0 +1,1 @@
+sbcl --load "theotalk.lisp" --eval "(run-program-from-file \"$1\")"
